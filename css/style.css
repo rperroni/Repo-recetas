@@ -1,0 +1,47 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*font size 62.5% makes 1em = 10px*/
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    color: rgb(236, 236, 236);
+    background-image: url("../img/fondo-cocina.png");
+}
+
+main, footer, .navbar-custom{
+    background-color: rgba(0, 0, 0, 0.70);
+    border-radius: 1rem;
+    margin-bottom: 1rem;;
+}
+
+.navbar-custom .navbar-text{
+    color:rgb(236, 236, 236);
+    font-weight: lighter ; 
+}
+
+.navbar-custom .active-tab{
+    color:rgb(202, 246, 253);
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main{
+    text-align: center;
+    height: 88vh;
+}
+
+footer{
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 0.5rem;
+}
